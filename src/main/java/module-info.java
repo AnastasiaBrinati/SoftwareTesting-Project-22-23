@@ -3,6 +3,6 @@ module calcolatrice {
     requires javafx.fxml;
 
 
-    opens calcolatrice to javafx.fxml;
-    exports calcolatrice;
+    opens calculator to javafx.fxml;
+    exports calculator;
 }

@@ -1,8 +1,9 @@
-package calcolatrice;
+package calculator;
 
 import javafx.event.ActionEvent;
 
-public class CalculatorController {
+public class CalculatorGraphicController {
+
     public void displayNumber(ActionEvent actionEvent) {
     }
 
@@ -17,4 +18,5 @@ public class CalculatorController {
 
     public void calculateResult(ActionEvent actionEvent) {
     }
+
 }
