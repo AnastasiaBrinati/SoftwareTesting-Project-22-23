@@ -14,7 +14,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0" style="-fx-background-color: #343434FF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.CalculatorGraphicController">
     <children>
-        <VBox prefHeight="550.0" prefWidth="400.0">
+        <VBox prefHeight="550.0" prefWidth="401.0">
             <children>
                 <TextField fx:id="tfDisplay" alignment="CENTER_RIGHT" prefWidth="340.0" style="-fx-background-color: #525252;" styleClass="inputtext" stylesheets="@calcstyle.css">
                     <VBox.margin>
