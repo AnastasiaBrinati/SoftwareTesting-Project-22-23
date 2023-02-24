@@ -1,8 +1,8 @@
-module ciprovo {
+module calcolatrice {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens ciprovo to javafx.fxml;
-    exports ciprovo;
+    opens calcolatrice to javafx.fxml;
+    exports calcolatrice;
 }
