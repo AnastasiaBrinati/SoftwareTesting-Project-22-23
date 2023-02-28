@@ -9,14 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <name>SoftwareTesting_FinalProject</name>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>5.8.2</junit.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <runSuite>**/calculator.LogicTestSuite.class</runSuite>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -94,4 +86,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.8.2</junit.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <runSuite>**/calculator.LogicTestSuite.class</runSuite>
+    </properties>
+
 </project>
