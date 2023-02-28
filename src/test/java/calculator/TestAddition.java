@@ -1,14 +1,15 @@
-import calculator.Calculator;
+package calculator;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class TestDivision {
+public class TestAddition {
 
     @Test
-    public void testDiv(){
+    public void testAdd(){
         Calculator calculator = new Calculator();
-        assertEquals(3.0, calculator.div(6.0, 2.0),0);
+        assertEquals(5.0, calculator.add(3.0, 2.0),0);
     }
 
 }
