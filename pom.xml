@@ -47,7 +47,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-                    <testFailureIgnore> false </testFailureIgnore>
                     <includes>
                         <include>${runSuite}</include>
                     </includes>
@@ -73,7 +72,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.softwaretesting_finalproject/com.example.softwaretesting_finalproject.HelloApplication
+                                src/main/java/calculator/Main.java
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
