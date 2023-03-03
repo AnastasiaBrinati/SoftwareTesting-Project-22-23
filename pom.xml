@@ -59,7 +59,7 @@
                         <include>${runSuite}</include>
                     </includes>
                 </configuration>
-                <version>2.20.1</version>
+                <version>2.22.2</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
