@@ -8,8 +8,7 @@ public class TestDivision {
 
     @Test
     public void testDiv(){
-        Calculator calculator = new Calculator();
-        assertEquals(3.0, calculator.div(6.0, 2.0),0);
+        assertEquals(3.0, Calculator.div(6.0, 2.0),0);
     }
 
 }
