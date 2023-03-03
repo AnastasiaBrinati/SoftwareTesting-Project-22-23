@@ -1,7 +1,9 @@
 package calculator;
 
 public class Calculator {
-
+    public Calculator(){
+        // TODO document why this constructor is empty
+    }
     public static double add(double a, double b) {
         return a+b;
     }
@@ -17,4 +19,5 @@ public class Calculator {
     public static double div(double a, double b) {
         return a/b;
     }
+
 }
