@@ -17,8 +17,9 @@
                 <version>2.22.2</version>
                 <configuration>
                     <includes>
-                        <include>**/LogicTestSuite</include>
+                        <include>**/LogicTestSuite.class</include>
                     </includes>
+                    <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
             </plugin>
             <plugin>
