@@ -99,11 +99,22 @@ public class CalculatorGraphicController {
             case "+" -> result = Calculator.add(firstNum, parseFloat(tfDisplay.getText()));
             case "-" -> result = Calculator.sub(firstNum, parseFloat(tfDisplay.getText()));
             case "*" -> result = Calculator.mul(firstNum, parseFloat(tfDisplay.getText()));
-            case "/" -> result = Calculator.div(firstNum, parseFloat(tfDisplay.getText()));
+            case "/" -> {
+                try {
+                    result = Calculator.div(firstNum, parseFloat(tfDisplay.getText()));
+                } catch (DivisionByZeroException e) {
+                    tfDisplay.setText("Error");
+                    isDotEntered = false;
+                    isEqualPressed = true;
+                    isOpStarted = false;
+                    return;
+                }
+            }
             default -> {
                 result = 0;
             }
         }
+        System.out.println(result);
         if(result - ((int)(result)) != 0){
             tfDisplay.setText(Double.toString(result));
 

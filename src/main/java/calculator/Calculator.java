@@ -16,8 +16,13 @@ public class Calculator {
         return a*b;
     }
 
-    public static double div(double a, double b) {
-        return a/b;
+    public static double div(double a, double b) throws DivisionByZeroException {
+        if(b!=0){
+            return a/b;
+        }else{
+            throw new DivisionByZeroException();
+        }
+
     }
 
 }
