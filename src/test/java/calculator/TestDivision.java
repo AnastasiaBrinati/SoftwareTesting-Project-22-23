@@ -15,4 +15,14 @@ public class TestDivision {
         }
     }
 
+    @Test
+    public void testDivByZero(){
+        try {
+           Calculator.div(6.0, 0.0);
+        } catch (DivisionByZeroException e) {
+            e.printStackTrace();
+            assertEquals("Math Error", e.getMessage());
+        }
+    }
+
 }
