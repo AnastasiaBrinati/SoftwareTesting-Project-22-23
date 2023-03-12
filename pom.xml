@@ -16,9 +16,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <includes>
-                        <include>**/LogicTestSuite.class</include>
-                    </includes>
                     <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
             </plugin>
