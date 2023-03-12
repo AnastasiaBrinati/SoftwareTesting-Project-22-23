@@ -95,41 +95,12 @@
     </dependencies>
 
     <properties>
-        <property>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <junit.version>5.8.2</junit.version>
-            <maven.compiler.source>17</maven.compiler.source>
-            <maven.compiler.target>17</maven.compiler.target>
-            <runSuite>**/LogicTestSuite.class</runSuite>
-        </property>
-        <property>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <junit.version>5.8.2</junit.version>
-            <maven.compiler.source>17</maven.compiler.source>
-            <maven.compiler.target>17</maven.compiler.target>
-            <runSuite>**/AdditionTestSuite.class</runSuite>
-        </property>
-        <property>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <junit.version>5.8.2</junit.version>
-            <maven.compiler.source>17</maven.compiler.source>
-            <maven.compiler.target>17</maven.compiler.target>
-            <runSuite>**/SubtractionTestSuite.class</runSuite>
-        </property>
-        <property>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <junit.version>5.8.2</junit.version>
-            <maven.compiler.source>17</maven.compiler.source>
-            <maven.compiler.target>17</maven.compiler.target>
-            <runSuite>**/DivisionTestSuite.class</runSuite>
-        </property>
-        <property>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <junit.version>5.8.2</junit.version>
-            <maven.compiler.source>17</maven.compiler.source>
-            <maven.compiler.target>17</maven.compiler.target>
-            <runSuite>**/MultiplicationTestSuite.class</runSuite>
-        </property>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.8.2</junit.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <runSuite>**/LogicTestSuite.class</runSuite>
+        <runSuite>**/DivisionTestSuite.class</runSuite>
     </properties>
 
 </project>
