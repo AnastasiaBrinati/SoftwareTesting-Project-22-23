@@ -1,5 +1,6 @@
 package calculator;
 
+import javafx.scene.robot.Robot;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
