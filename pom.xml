@@ -99,7 +99,6 @@
         <junit.version>5.8.2</junit.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <runSuite>**/LogicTestSuite.class</runSuite>
         <runSuite>**/DivisionTestSuite.class</runSuite>
     </properties>
 
