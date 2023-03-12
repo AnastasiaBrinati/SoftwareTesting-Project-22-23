@@ -4,11 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({TestSubtraction.class, TestAddition.class, TestMultiplication.class, TestDivision.class, TestExpression.class})
-
-// Giulio suggerisce di aggiungere come integration test una sorta di espressione
-// quindi fare tipo il test di " 3+4*12-9 ", per provare che tutte le 'feature'
-// not only work per se, but also as a whole
+@Suite.SuiteClasses({TestSubtraction.class, TestAddition.class, TestMultiplication.class, TestDivision.class})
 
 // would be nice if we had also something for the eyeautomate part, but i am
 // clueless on how to use that together with java, we should rewatch the lesson
