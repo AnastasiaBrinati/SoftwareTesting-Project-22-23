@@ -60,6 +60,21 @@
     -fx-background-color : #ac54ff;
     -fx-background-radius :  20;
 }
+.buttonAdd
+{
+    -fx-background-color : #22AA66;
+    -fx-background-radius :  20;
+}
+.buttonSub
+{
+    -fx-background-color : #005599;
+    -fx-background-radius :  20;
+}
+.buttonDiv
+{
+    -fx-background-color : #990011;
+    -fx-background-radius :  20;
+}
 .buttonOp:hover
 {
     -fx-background-color : #9717ff;

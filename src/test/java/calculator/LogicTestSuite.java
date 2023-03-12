@@ -25,4 +25,4 @@ public class LogicTestSuite {
      time logs on how much each member spent on it
      make sure to record somehow that each group member uses the environment, e.g. one video per person.
 
- */
+*/

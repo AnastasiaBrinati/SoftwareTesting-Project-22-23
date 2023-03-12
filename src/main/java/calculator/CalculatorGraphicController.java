@@ -11,7 +11,7 @@ public class CalculatorGraphicController {
     @FXML
     private TextField tfDisplay;
 
-    String op="";
+    String op = "";
     boolean isOpStarted;
     boolean isDotEntered=false;
     boolean isEqualPressed = false;
@@ -19,13 +19,12 @@ public class CalculatorGraphicController {
     double result;
 
     public void displayNumber(ActionEvent actionEvent){
-        if( isOpStarted || isEqualPressed){
+        if(isOpStarted || isEqualPressed){
             isDotEntered = false;
             tfDisplay.setText("");
             isOpStarted = false;
             isEqualPressed = false;
         }
-
         if(((Button)actionEvent.getTarget()).getText().equals("π")){
             tfDisplay.setText("3.14");
             isDotEntered = true;
@@ -33,7 +32,6 @@ public class CalculatorGraphicController {
         else if(((Button)actionEvent.getTarget()).getText().equals("e")){
             tfDisplay.setText("2.71");
             isDotEntered = true;
-
         }
         else if(((Button)actionEvent.getTarget()).getText().equals("0")){
             if(isDotEntered || !tfDisplay.getText().equals("0")){
@@ -49,6 +47,11 @@ public class CalculatorGraphicController {
             }
         }
     }
+
+    public void setTextField(String number){
+        tfDisplay.setText(number);
+    }
+
 
     public void delete(ActionEvent actionEvent){
         if(tfDisplay.getText().length() >0){
@@ -73,7 +76,6 @@ public class CalculatorGraphicController {
     }
 
     public void selectOperation(ActionEvent actionEvent){
-
         if(tfDisplay.getText().length()>0){
             op = ((Button)actionEvent.getTarget()).getText();
             System.out.println("Op selected : "+op);

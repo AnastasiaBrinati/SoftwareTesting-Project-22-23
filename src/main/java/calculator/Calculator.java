@@ -22,7 +22,6 @@ public class Calculator {
         }else{
             throw new DivisionByZeroException();
         }
-
     }
 
 }

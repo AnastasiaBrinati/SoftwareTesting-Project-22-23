@@ -75,7 +75,7 @@
                                 <Font name="Berlin Sans FB" size="24.0" />
                             </font>
                         </Button>
-                        <Button fx:id="btnSub" mnemonicParsing="false" onAction="#selectOperation" prefHeight="208.0" prefWidth="162.0" styleClass="buttonOp" stylesheets="@calcstyle.css" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                        <Button fx:id="btnSub" mnemonicParsing="false" onAction="#selectOperation" prefHeight="208.0" prefWidth="162.0" styleClass="buttonSub" stylesheets="@calcstyle.css" text="-" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
                             <font>
                                 <Font name="Berlin Sans FB" size="24.0" />
                             </font>
@@ -95,7 +95,7 @@
                                 <Font name="Berlin Sans FB" size="24.0" />
                             </font>
                         </Button>
-                        <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#selectOperation" prefHeight="208.0" prefWidth="162.0" styleClass="buttonOp" stylesheets="@calcstyle.css" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                        <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#selectOperation" prefHeight="208.0" prefWidth="162.0" styleClass="buttonAdd" stylesheets="@calcstyle.css" text="+" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
                             <font>
                                 <Font name="Berlin Sans FB" size="24.0" />
                             </font>
@@ -135,7 +135,7 @@
                                 <Font name="Berlin Sans FB" size="24.0" />
                             </font>
                         </Button>
-                        <Button fx:id="btnDiv" mnemonicParsing="false" onAction="#selectOperation" prefHeight="208.0" prefWidth="162.0" styleClass="buttonOp" stylesheets="@calcstyle.css" text="/" textFill="WHITE" GridPane.columnIndex="3">
+                        <Button fx:id="btnDiv" mnemonicParsing="false" onAction="#selectOperation" prefHeight="208.0" prefWidth="162.0" styleClass="buttonDiv" stylesheets="@calcstyle.css" text="/" textFill="WHITE" GridPane.columnIndex="3">
                             <font>
                                 <Font name="Berlin Sans FB" size="24.0" />
                             </font>
