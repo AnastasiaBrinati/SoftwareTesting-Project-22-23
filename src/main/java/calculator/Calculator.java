@@ -4,19 +4,19 @@ public class Calculator {
     public Calculator(){
         // TODO document why this constructor is empty
     }
-    public static double add(double a, double b) {
+    public double add(double a, double b) {
         return a+b;
     }
 
-    public static double sub(double a, double b) {
+    public double sub(double a, double b) {
         return a-b;
     }
 
-    public static double mul(double a, double b) {
+    public double mul(double a, double b) {
         return a*b;
     }
 
-    public static double div(double a, double b) throws DivisionByZeroException {
+    public double div(double a, double b) throws DivisionByZeroException {
         if(b!=0){
             return a/b;
         }else{

@@ -94,15 +94,16 @@ public class CalculatorGraphicController {
     }
 
     public void calculateResult(){
+        Calculator calculator = new Calculator();
         isDotEntered=true;
         isEqualPressed = true;
         switch (op) {
-            case "+" -> result = Calculator.add(firstNum, parseFloat(tfDisplay.getText()));
-            case "-" -> result = Calculator.sub(firstNum, parseFloat(tfDisplay.getText()));
-            case "*" -> result = Calculator.mul(firstNum, parseFloat(tfDisplay.getText()));
+            case "+" -> result = calculator.add(firstNum, parseFloat(tfDisplay.getText()));
+            case "-" -> result = calculator.sub(firstNum, parseFloat(tfDisplay.getText()));
+            case "*" -> result = calculator.mul(firstNum, parseFloat(tfDisplay.getText()));
             case "/" -> {
                 try {
-                    result = Calculator.div(firstNum, parseFloat(tfDisplay.getText()));
+                    result = calculator.div(firstNum, parseFloat(tfDisplay.getText()));
                 } catch (DivisionByZeroException e) {
                     tfDisplay.setText("Error");
                     isDotEntered = false;

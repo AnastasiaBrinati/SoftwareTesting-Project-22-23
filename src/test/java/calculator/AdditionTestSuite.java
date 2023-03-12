@@ -4,8 +4,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({TestDivision.class, IntegrationTestDivision.class})
+@Suite.SuiteClasses({TestAddition.class, IntegrationTestAddition.class})
 
 
-public class DivisionTestSuite {
+public class AdditionTestSuite {
 }
