@@ -12,15 +12,16 @@ public class TestMultiplication {
     }
 
     // Integration Testing
-    // Multiplication
     @Test
     public void testMulSub(){
         assertEquals(35.0, Calculator.sub(Calculator.mul(10.0,4.0), 5.0),0);
     }
+
     @Test
     public void testMulAdd(){
         assertEquals(14.0, Calculator.add(Calculator.mul(5.0, 2.0),4.0), 0.0);
     }
+
     @Test
     public void testMulDiv() throws DivisionByZeroException {
         assertEquals(16.0, Calculator.div(Calculator.mul(8.0,4.0),2.0), 0.0);
