@@ -1,10 +1,6 @@
 package calculator;
 
-import eye.Eye;
-import eye.Match;
 import org.junit.Test;
-import java.awt.image.BufferedImage;
-
 import static org.junit.Assert.*;
 
 public class TestAddition {
