@@ -17,7 +17,11 @@
                 <version>2.19.1</version>
                 <configuration>
                     <includes>
-                        <include>**/DivisionTestSuite.class</include>
+                        <include>${runSuite}</include>
+                        <include>${runSuiteAddition}</include>
+                        <include>${runSuiteSubtraction}</include>
+                        <include>${runSuiteDivision}</include>
+                        <include>${runSuiteMultiplication}</include>
                     </includes>
                     <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
@@ -99,7 +103,11 @@
         <junit.version>5.8.2</junit.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <runSuite>**/DivisionTestSuite.class</runSuite>
+        <runSuite>**/LogicTestSuite.class</runSuite>
+        <runSuiteDivision>**/DivisionTestSuite.class</runSuiteDivision>
+        <runSuiteAddition>**/AdditionTestSuite.class</runSuiteAddition>
+        <runSuiteMultiplication>**/MultiplicationTestSuite.class</runSuiteMultiplication>
+        <runSuiteSubtraction>**/SubtractionTestSuite.class</runSuiteSubtraction>
     </properties>
 
 </project>
