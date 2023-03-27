@@ -15,7 +15,7 @@ public class TestAddition {
 
     @Test
     public void testAdd(){
-        assertEquals(7.0, calculator.add(5.0, 2.0),0);
+        assertEquals(8.0, calculator.add(6.0, 2.0),0);
     }
 
 }

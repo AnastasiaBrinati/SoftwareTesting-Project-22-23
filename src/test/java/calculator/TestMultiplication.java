@@ -15,7 +15,7 @@ public class TestMultiplication {
 
     @Test
     public void testMul(){
-        assertEquals(6.0, calculator.mul(3.0, 2.0),0);
+        assertEquals(12.0, calculator.mul(3.0, 4.0),0);
     }
 
 }
