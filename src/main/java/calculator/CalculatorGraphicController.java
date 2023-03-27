@@ -102,7 +102,11 @@ public class CalculatorGraphicController {
             case "-" -> result = calculator.sub(firstNum, parseFloat(tfDisplay.getText()));
             case "*" -> result = calculator.mul(firstNum, parseFloat(tfDisplay.getText()));
             case "/" -> {
+                try {
                     result = calculator.div(firstNum, parseFloat(tfDisplay.getText()));
+                } catch (DivisionByZeroException e) {
+                    e.printStackTrace();
+                }
             }
             default -> {result = 0.0;}
         }

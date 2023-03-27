@@ -5,21 +5,24 @@ public class Calculator {
         // TO-DO document why this constructor is empty
     }
 
-    // stubs
     public double add(double a, double b) {
-        return 0.0;
+        return a+b;
     }
 
     public double sub(double a, double b) {
-        return 0.0;
+        return a-b;
     }
 
     public double mul(double a, double b) {
-        return 0.0;
+        return a*b;
     }
 
-    public double div(double a, double b){
-        return 0.0;
+    public double div(double a, double b) throws DivisionByZeroException {
+        if(b!=0){
+            return a/b;
+        }else{
+            throw new DivisionByZeroException();
+        }
     }
 
 }

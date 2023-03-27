@@ -15,7 +15,11 @@ public class TestDivision {
 
     @Test
     public void testDiv(){
-        assertEquals(4.0, calculator.div(8.0, 2.0),0);
+        try {
+            assertEquals(3.0, calculator.div(6.0, 2.0),0);
+        } catch (DivisionByZeroException e) {
+            e.printStackTrace();
+        }
     }
 
 }
