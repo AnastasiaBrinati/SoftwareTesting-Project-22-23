@@ -101,6 +101,7 @@ public class CalculatorGraphicController {
             case "+" -> result = calculator.add(firstNum, parseFloat(tfDisplay.getText()));
             case "-" -> result = calculator.sub(firstNum, parseFloat(tfDisplay.getText()));
             case "*" -> result = calculator.mul(firstNum, parseFloat(tfDisplay.getText()));
+            case "^" -> result = calculator.pow(firstNum, parseFloat(tfDisplay.getText()));
             case "/" -> {
                 try {
                     result = calculator.div(firstNum, parseFloat(tfDisplay.getText()));
