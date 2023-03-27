@@ -75,6 +75,11 @@
     -fx-background-color : #990011;
     -fx-background-radius :  20;
 }
+.buttonPow
+{
+    -fx-background-color : #ff00ba;
+    -fx-background-radius :  20;
+}
 .buttonOp:hover
 {
     -fx-background-color : #9717ff;
