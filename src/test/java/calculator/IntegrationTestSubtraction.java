@@ -27,4 +27,10 @@ public class IntegrationTestSubtraction {
     public void testSubDiv() throws DivisionByZeroException {
         assertEquals(2.0, calculator.div(calculator.sub(8.0,4.0),2.0), 0.0);
     }
+
+    @Test
+    public void testSubPow() {
+        assertEquals(49.0, calculator.pow(calculator.add(3.0,4.0),2.0), 0.0);
+    }
+
 }

@@ -27,4 +27,9 @@ public class IntegrationTestAddition {
     public void testAddDiv() throws DivisionByZeroException {
         assertEquals(6.0, calculator.div(calculator.add(8.0,4.0),2.0), 0.0);
     }
+
+    @Test
+    public void testAddPow(){
+        assertEquals(100.0, calculator.pow(calculator.add(6.0,4.0),2.0), 0.0);
+    }
 }

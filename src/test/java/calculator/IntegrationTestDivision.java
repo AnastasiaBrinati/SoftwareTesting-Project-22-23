@@ -14,16 +14,21 @@ public class IntegrationTestDivision {
     }
     @Test
     public void testDivSub() throws DivisionByZeroException {
-        assertEquals(10.0, calculator.add(calculator.div(12.0,4.0), 7.0),0);
+        assertEquals(1.0, calculator.sub(calculator.div(12.0,4.0), 2.0),0);
     }
 
     @Test
     public void testDivAdd() throws DivisionByZeroException{
-        assertEquals(12.0, calculator.mul(calculator.div(6.0, 2.0),4.0), 0.0);
+        assertEquals(7.0, calculator.add(calculator.div(6.0, 2.0),4.0), 0.0);
     }
 
     @Test
     public void testDivMul() throws DivisionByZeroException {
-        assertEquals(6.0, calculator.mul(calculator.div(12.0,4.0),2.0), 0.0);
+        assertEquals(8.0, calculator.mul(calculator.div(12.0,3.0),2.0), 0.0);
+    }
+
+    @Test
+    public void testDivPow() throws DivisionByZeroException {
+        assertEquals(25.0, calculator.pow(calculator.div(15.0,3.0),2.0), 0.0);
     }
 }

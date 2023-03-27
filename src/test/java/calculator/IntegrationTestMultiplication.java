@@ -27,4 +27,9 @@ public class IntegrationTestMultiplication {
     public void testMulDiv() throws DivisionByZeroException {
         assertEquals(16.0, calculator.div(calculator.mul(8.0,4.0),2.0), 0.0);
     }
+
+    @Test
+    public void testMulPow(){
+        assertEquals(144.0, calculator.pow(calculator.mul(3.0,4.0),2.0), 0.0);
+    }
 }
